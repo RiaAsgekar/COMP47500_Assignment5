@@ -8,7 +8,7 @@ Kosaraju.java: It implements Kosaraju's algorithm for finding Strongly Connected
 
 Tarjan.java: This file implements Tarjan's algorithm for finding SCCs in a directed graph. The main functionality of the algorithm is encapsulated in two methods SSCUtil and SCC, which together allow efficient identification of SCCs.
 
-Graph.java: It serves as a foundational building block for creating and manipulating undirected graphs in Java using an adjacency list representation.
+Graph.java: It serves as a foundational building block for creating and manipulating directed graphs in Java using an adjacency list representation.
 
 Main.java: It reads trip data from a CSV file 201508_trip_data.csv. For each trip in the CSV file, the start and end terminal stations are extracted and used to add an edge between the corresponding vertices in the graph. It then processes trip data, constructs a graph representing the trip connections between stations, and compares the performance of two algorithms for finding Strongly Connected Components in the graph.
 
